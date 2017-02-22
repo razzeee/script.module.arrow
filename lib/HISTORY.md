@@ -1,5 +1,48 @@
 ## History
 
+### 0.10.0
+
+- [FIX] Fix getattr off by one for quarter
+- [FIX] Fix negative offset for UTC
+- [FIX] Update arrow.py
+
+### 0.9.0
+
+- [NEW] Remove duplicate code
+- [NEW] Support gnu date iso 8601
+- [NEW] Add support for universal wheels
+- [NEW] Slovenian locale
+- [NEW] Slovak locale
+- [NEW] Romanian locale
+- [FIX] respect limit even if end is defined range
+- [FIX] Separate replace & shift functions
+- [NEW] Added tox
+- [FIX] Fix supported Python versions in documentation 
+- [NEW] Azerbaijani locale added, locale issue fixed in Turkish.
+- [FIX] Format ParserError's raise message 
+
+### 0.8.0
+
+- []
+
+### 0.7.1
+
+- [NEW] Esperanto locale (batisteo)
+
+
+### 0.7.0 
+- [FIX] Parse localized strings #228 (swistakm)
+- [FIX] Modify tzinfo parameter in `get` api #221 (bottleimp)
+- [FIX] Fix Czech locale (PrehistoricTeam)
+- [FIX] Raise TypeError when adding/subtracting non-dates (itsmeolivia)
+- [FIX] Fix pytz conversion error (Kudo)
+- [FIX] Fix overzealous time truncation in span_range (kdeldycke) 
+- [NEW] Humanize for time duration #232 (ybrs)
+- [NEW] Add Thai locale (sipp11)
+- [NEW] Adding Belarusian (be) locale (oire)
+- [NEW] Search date in strings (beenje)
+- [NEW] Note that arrow's tokens differ from strptime's. (offby1)
+
 ### 0.6.0
 
 - [FIX] Added support for Python 3
