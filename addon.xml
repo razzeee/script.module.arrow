@@ -13,7 +13,6 @@
     <summary lang="en">Arrow: better dates and times for Python</summary>
     <description lang="en">Packed for Kodi from https://github.com/crsmithdev/arrow</description>
     <platform>all</platform>
-    <language></language>
     <license>Apache2</license>
     <source>https://github.com/Razzeee/script.module.arrow</source>
     <email>beenje AT gmail.com</email>
